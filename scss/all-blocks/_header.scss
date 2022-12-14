@@ -1,0 +1,36 @@
+.header {
+    margin-top: 20px;
+}
+
+.header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav {
+
+    display: flex;
+
+    &__list {
+        padding-left: 25px;
+        list-style: none;
+    }
+
+    &__link {
+        font-family: 'Barlow';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 15px;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: #83888F;
+
+        &:hover {
+            color: red;
+            text-decoration: underline;
+        }
+    }
+
+}
